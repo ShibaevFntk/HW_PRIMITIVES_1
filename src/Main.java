@@ -8,12 +8,6 @@ public class Main {
         int bonus = ticketCost / bonusStep; //рассчитываю количество бонусных миль, используя
         // значения заведённых переменных, ответ сохраняю в новую переменную
 
-        // Выводим информацию для клиента
-        System.out.println("Добрый день, уважаемый клиент!");
-        System.out.println("Вами куплен билет за " + ticketCost + " руб.");
-        System.out.println("Вам начислено " + bonus + " б.м."); // вывожу на экран
-        System.out.println("Согласно правилам акции, мили начисляеются за каждые " + bonusStep + " руб.");
-        System.out.println("Не прошли по акции " + (ticketCost - bonus * bonusStep) + " руб.");
-
-    }
+        System.out.println(bonus); // вывожу на экран
+     }
 }
